@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/<random_string>')
 def reversed_string(random_string):
     # comment on this function
-    # add more comment 1
+    # add more comment 12
     return "".join(reversed(random_string))
 
 @app.route('/get-mode')
